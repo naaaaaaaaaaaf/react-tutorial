@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { TwitterShareButton, TwitterIcon } from 'react-share';
 import { Container, Row, Col, Button, Table, Form, Card } from 'react-bootstrap';
 
-const API_URL = 'http://fushinsha.auri.ga/api/genText';
+const API_URL = 'https://fushinsha.auri.ga/api/genText';
 
 export default class App extends Component {
   // 初期値を設定
