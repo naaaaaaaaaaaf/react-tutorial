@@ -26,7 +26,7 @@ export default class App extends Component {
         const data = results.data; // APIレスポンスを取得する
         this.setState({
           api_data: data,
-          mastoshare_link: "https://mastoshare.net/post.php?text=" + data.message + " %23不審者ジェネレーター"
+          mastoshare_link: "https://mastoshare.net/post.php?text=" + data.message + " %23不審者ジェネレーター https://auri.ga/fushinsha&ref=no"
         });
       },
       )
