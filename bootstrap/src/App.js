@@ -49,7 +49,9 @@ export default class App extends Component {
     return (
       <div className="app">
         <Container>
+          <div className="mt-2">
           <h1>不審者情報ジェネレーター</h1>
+          </div>
           <div className="mb2">
             <a href="http://fushinsha-joho.co.jp/">日本不審者情報センター</a>から得た不審者情報を元に、架空の不審者情報を生成します。
           </div>        
@@ -72,7 +74,7 @@ export default class App extends Component {
           </Card>
           <div className="text-center mt-3">
           <h3>20分間隔で投稿するBot</h3>
-          <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="800" height="500" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fap.ketsuben.red%2Fusers%2Fmecha_fushinsha_bot&theme=light&size=100&header=true&replies=false&boosts=false"></iframe>
+          <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="80%" height="500" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fap.ketsuben.red%2Fusers%2Fmecha_fushinsha_bot&theme=light&size=100&header=true&replies=false&boosts=false"></iframe>
           </div>
         </Container>
       </div>
